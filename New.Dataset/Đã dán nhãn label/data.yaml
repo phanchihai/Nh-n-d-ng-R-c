@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Con lai', 'Huu co', 'Vo co']
+
+roboflow:
+  workspace: hai-cute
+  project: ppnckh_version2-xvjed
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hai-cute/ppnckh_version2-xvjed/dataset/2
